@@ -1,0 +1,40 @@
+.menuCard div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.menuCard button {
+  background: #f5f5f5;
+  border-radius: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  /* C1/A */
+  align-items: center;
+  color: #151515;
+  padding: 10px 20px 10px 15px;
+  border: none;
+  margin-top: 20px;
+}
+.menuCard h6 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 22px;
+}
+.menuCard a {
+  font-family: Poppins;
+  padding: 5px;
+  padding-left: 0;
+  font-size: 13px;
+  color: #151515;
+}
+.men .menuCard {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}

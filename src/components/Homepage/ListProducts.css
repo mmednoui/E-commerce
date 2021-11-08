@@ -1,0 +1,33 @@
+.listProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  padding: 0 40px;
+}
+.list_header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.list_header p {
+  font-weight: bold;
+}
+.list_header button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* C1/A */
+
+  color: #151515;
+}
+.productList {
+  display: flex;
+  flex-shrink: 0;
+}

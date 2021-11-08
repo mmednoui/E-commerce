@@ -1,0 +1,39 @@
+.blogSmall {
+  flex: 4.5;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.blogSmall_rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.blogSmall_bottom {
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  margin-top: -10px;
+}
+
+.blogSmall_bottom p {
+  font-size: 12px;
+  line-height: 15px;
+  color: #151515;
+  padding-right: 10px;
+}
+.blogSmall_rightside h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  width: 70%;
+  /* C1/A */
+
+  color: #151515;
+}

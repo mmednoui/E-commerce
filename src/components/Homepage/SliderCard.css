@@ -1,0 +1,44 @@
+.sliderCard {
+  background-color: turquoise;
+  width: 370px;
+  height: 190px;
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 20px;
+}
+.avatar {
+  position: absolute;
+  bottom: -25px;
+}
+.sliderCard h6 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+
+  /* C1/A */
+
+  color: #151515;
+  width: 280px;
+}
+.sliderCard p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* C1/C */
+
+  color: #a9a9a9;
+}

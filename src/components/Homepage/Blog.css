@@ -1,0 +1,41 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  padding: 0 40px;
+}
+.blog_header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.blog_header p {
+  font-weight: bold;
+}
+.blog_header button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* C1/A */
+
+  color: #151515;
+}
+.blog_content {
+  display: flex;
+  height: 400px;
+}
+.smalls {
+  flex: 4.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}

@@ -1,0 +1,64 @@
+.cat_grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Categories_header {
+  display: flex;
+  margin: 20px 40px;
+}
+.Categories_header p {
+  /* Caption/Default */
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* C1/C */
+
+  color: #a9a9a9;
+}
+.Categories_header h6 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* C1/A */
+
+  color: #151515;
+}
+.cat_grid h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height */
+
+  /* C1/A */
+
+  color: #151515;
+  margin: 0 40px;
+}
+.applied_filters {
+  display: flex;
+  margin-left: 40px;
+}
+.applied_filters p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* C1/C */
+
+  color: #a9a9a9;
+}
+.gridContent {
+  display: flex;
+}

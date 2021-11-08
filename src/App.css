@@ -1,0 +1,12 @@
+.App {
+  align-items: center;
+  overflow: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+.green {
+  color: #6a983c !important;
+}

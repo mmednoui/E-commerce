@@ -1,0 +1,15 @@
+.navigation {
+  background-color: #f9f9f9;
+  width: 100vw;
+  margin-left: -40px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  margin-bottom: 50px;
+}
+.navigation select {
+  margin: 0 25px;
+  background-color: #f9f9f9;
+  border: none;
+  height: 40px;
+}

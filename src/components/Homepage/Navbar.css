@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans" !important;
+  padding: 0 40px;
+}
+.navbar_left {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar_right {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #151515;
+}
+.navbar_shape {
+  opacity: 0.05;
+  /* C1/A */
+
+  border: 1px solid #151515;
+}
