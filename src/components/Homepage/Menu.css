@@ -1,7 +1,6 @@
 .menu {
   flex: 3;
-  height: 900px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  height: 100%;
 }

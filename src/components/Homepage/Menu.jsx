@@ -36,6 +36,7 @@ function Menu() {
           "Kitchen",
         ]}
         more="More categories"
+        className="menu_margin"
       />
     </div>
   );

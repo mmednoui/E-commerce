@@ -43,6 +43,24 @@ function Filter() {
           </select>
         </div>
       </div>
+      <div className="applied_filters">
+        <p> Applied filters :</p>
+        <div
+          className="percent green"
+          style={{ position: "relative", width: "7%", margin: "-25px 10px" }}
+        >
+          Selected filter{" "}
+          <span style={{ opacity: ".5", margin: "0 5px" }}>x</span>
+        </div>{" "}
+        <div
+          className="percent green"
+          style={{ position: "relative", width: "7%", margin: "-25px 10px" }}
+        >
+          Selected filter{" "}
+          <span style={{ opacity: ".5", margin: "0 5px" }}>x</span>
+        </div>
+      </div>
+      <div className="gridContent"></div>
     </div>
   );
 }

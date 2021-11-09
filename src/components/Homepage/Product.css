@@ -2,7 +2,6 @@
   flex: 3;
   background: #ffffff;
   /* C1/D */
-
   border: 1px solid #d1d1d1;
   border-radius: 12px;
   display: flex;
@@ -10,8 +9,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 18px;
-  margin: 15px;
-  min-width: 200px;
+  margin: 50px 15px;
+  min-width: 20%;
   position: relative;
 }
 .product img {
@@ -45,7 +44,7 @@
 }
 .price h6 {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 23px;
   /* identical to box height */
 
@@ -67,26 +66,27 @@
 }
 
 .product_top h6 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
   line-height: 22px;
   /* identical to box height */
 
   /* C1/A */
-
+  margin-left: -10px;
   color: #151515;
 }
 .product_top p {
   font-weight: normal;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 16px;
 
   /* C1/B */
+  margin-left: -10px;
 
   color: #575757;
 }
 .product_top {
-  margin: 20px 0;
+  margin: 15px 0;
 }
 .percent {
   position: absolute;
@@ -105,4 +105,82 @@
 }
 .percent span {
   margin: 0 1px;
+}
+
+.Pstars {
+  display: flex;
+  height: 30px;
+}
+h1,
+h2 {
+  color: #888;
+  margin: 0;
+  font-weight: normal;
+}
+
+h2 {
+  clear: both;
+  color: #aaa;
+}
+em {
+  display: block;
+  color: #bbb;
+}
+p,
+p a {
+  color: #aaa;
+  text-decoration: none;
+}
+p a:hover,
+p a:focus {
+  text-decoration: underline;
+}
+p + p {
+  color: #bbb;
+}
+.detail {
+  position: absolute;
+  text-align: right;
+}
+a[href*="intent"] {
+  display: inline-block;
+}
+/* * Prating styles */
+.Prating {
+  width: 150px;
+  font-size: 25px;
+  overflow: hidden;
+  margin: 0;
+}
+.Prating input {
+  float: right;
+  opacity: 0;
+  position: absolute;
+}
+.Prating a,
+.Prating label {
+  float: right;
+  color: #aaa;
+  text-decoration: none;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.Prating label:hover ~ label,
+.Prating input:focus ~ label,
+.Prating label:hover,
+.Prating a:hover,
+.Prating a:hover ~ a,
+.Prating a:focus,
+.Prating a:focus ~ a {
+  color: #151515;
+  cursor: pointer;
+}
+.Prating2 {
+  direction: rtl;
+  transform: translateX(-95px) translateY(-10px);
+}
+.Prating2 a {
+  float: none;
 }

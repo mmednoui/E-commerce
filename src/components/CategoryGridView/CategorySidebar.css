@@ -1,0 +1,132 @@
+.catSidebar {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sideCatElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.catSidebar h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  /* C1/A */
+
+  color: #151515;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.sidecat_category {
+  display: flex;
+  justify-content: space-between;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* C1/A */
+
+  color: #151515;
+  padding: 10px 0;
+}
+.sidecat_category div {
+  padding: 0 10px;
+  color: #6a983c;
+  background: #f4f8ec;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+/*STARS RATING*/
+.stars {
+  display: flex;
+  height: 40px;
+}
+
+h1,
+h2 {
+  color: #888;
+  margin: 0;
+  font-weight: normal;
+}
+
+h2 {
+  clear: both;
+  color: #aaa;
+}
+em {
+  display: block;
+  color: #bbb;
+}
+p,
+p a {
+  color: #aaa;
+  text-decoration: none;
+}
+p a:hover,
+p a:focus {
+  text-decoration: underline;
+}
+p + p {
+  color: #bbb;
+}
+.detail {
+  position: absolute;
+  text-align: right;
+}
+a[href*="intent"] {
+  display: inline-block;
+}
+/* * Rating styles */
+.rating {
+  width: 150px;
+  font-size: 30px;
+  overflow: hidden;
+  margin: 0;
+}
+.rating input {
+  float: right;
+  opacity: 0;
+  position: absolute;
+}
+.rating a,
+.rating label {
+  float: right;
+  color: #aaa;
+  text-decoration: none;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.rating label:hover ~ label,
+.rating input:focus ~ label,
+.rating label:hover,
+.rating a:hover,
+.rating a:hover ~ a,
+.rating a:focus,
+.rating a:focus ~ a {
+  color: orange;
+  cursor: pointer;
+}
+.rating2 {
+  direction: rtl;
+  transform: translateX(-20px);
+}
+.rating2 a {
+  float: none;
+}

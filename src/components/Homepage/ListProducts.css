@@ -5,6 +5,7 @@
   justify-content: space-evenly;
   margin-top: 50px;
   padding: 0 40px;
+  flex-wrap: wrap;
 }
 .list_header {
   display: flex;

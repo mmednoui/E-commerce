@@ -1,5 +1,7 @@
-.products {
+.gridProducts {
+  flex: 9;
   display: flex;
   margin-top: 50px;
+  width: 100%;
   flex-wrap: wrap;
 }
