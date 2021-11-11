@@ -17,6 +17,11 @@
   padding: 10px;
   font-size: 13px;
   color: #151515;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.navbar a:hover {
+  opacity: 0.6;
 }
 .navbar_shape {
   opacity: 0.05;

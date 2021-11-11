@@ -6,19 +6,19 @@ function CategorySidebar() {
       <div className="sideCatElement">
         <h6>Categories</h6>
         <div className="sidecat_category">
-          <p>Category name</p>
+          <p className="hold">Category name</p>
           <div>320</div>
         </div>{" "}
         <div className="sidecat_category">
-          <p>Category name</p>
+          <p className="hold">Category name</p>
           <div>112</div>
         </div>{" "}
         <div className="sidecat_category">
-          <p>Category name</p>
+          <p className="hold">Category name</p>
           <div>42</div>
         </div>{" "}
         <div className="sidecat_category">
-          <p>Category name</p>
+          <p className="hold">Category name</p>
           <div>38</div>
         </div>
       </div>
@@ -165,6 +165,26 @@ function CategorySidebar() {
       </div>
       <div className="sideCatElement">
         <h6>Price</h6>
+        <div className="range_slider">
+          <div className="range_values">
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div className="min_max">
+          <div>
+            <p>Min</p>
+            <input type="text" placeholder="0" />
+          </div>
+          <div>
+            <p>Max</p>
+            <input type="text" placeholder="000" />
+          </div>
+        </div>
+        <div className="filter_buttons">
+          <button className="apply hold">Apply</button>
+          <button className="reset hold">Reset</button>
+        </div>
       </div>
     </div>
   );

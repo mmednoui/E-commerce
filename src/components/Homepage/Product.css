@@ -38,6 +38,11 @@
 
   border: 1px solid #46760a;
   border-radius: 12px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.product_bottom button:hover {
+  opacity: 0.6;
 }
 .price {
   margin-left: 5px;
@@ -111,38 +116,38 @@
   display: flex;
   height: 30px;
 }
-h1,
+.Pstars h1,
 h2 {
   color: #888;
   margin: 0;
   font-weight: normal;
 }
 
-h2 {
+.Pstars h2 {
   clear: both;
   color: #aaa;
 }
-em {
+.Pstars em {
   display: block;
   color: #bbb;
 }
-p,
+.Pstars p,
 p a {
   color: #aaa;
   text-decoration: none;
 }
-p a:hover,
-p a:focus {
+.Pstars p a:hover,
+.Pstars p a:focus {
   text-decoration: underline;
 }
-p + p {
+.Pstars p + p {
   color: #bbb;
 }
 .detail {
   position: absolute;
   text-align: right;
 }
-a[href*="intent"] {
+.Pstars a[href*="intent"] {
   display: inline-block;
 }
 /* * Prating styles */

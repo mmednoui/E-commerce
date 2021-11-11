@@ -1,4 +1,4 @@
-.cat_grid {
+.cat_list {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -31,7 +31,7 @@
 
   color: #151515;
 }
-.cat_grid h3 {
+.cat_list h3 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -137,4 +137,11 @@
   color: #ffffff;
   background-color: #6a983c;
   border: none;
+}
+.list_view {
+  flex: 9;
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  flex-wrap: wrap;
 }

@@ -10,3 +10,16 @@
 .green {
   color: #6a983c !important;
 }
+.hold {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.hold:hover {
+  opacity: 0.6;
+}
+.black {
+  color: #151515 !important;
+}
+.underlined {
+  text-decoration: underline;
+}

@@ -30,4 +30,10 @@
   height: 40px;
   font-weight: bold;
   align-items: center;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.headingCard button:hover {
+  opacity: 0.8;
 }

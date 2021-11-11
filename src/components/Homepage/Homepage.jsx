@@ -13,6 +13,7 @@ function Homepage() {
     <div>
       <Feed />
       <Slider />
+
       <ListProducts />
       <Blog />
     </div>

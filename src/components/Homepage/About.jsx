@@ -27,32 +27,31 @@ function About() {
       <div className="contact_container">
         <div className="contact">
           <h6>Get in touch</h6>
-          <p className="green">About us</p>
-          <p className="green">Careers</p>
-          <p className="green">Press Releases</p>
-          <p className="green">Blog</p>
+          <p className="green hold">About us</p>
+          <p className="green hold">Careers</p>
+          <p className="green hold">Press Releases</p>
+          <p className="green hold">Blog</p>
         </div>
         <div className="contact">
           <h6>Connections</h6>
-          <p className="green">Facebook</p>
-          <p className="green">Twitter</p>
-          <p className="green">Instagram</p>
-          <p className="green">Youtube</p>
-          <p className="green">LinkedIn</p>
+          <p className="green hold">Facebook</p>
+          <p className="green hold">Twitter</p>
+          <p className="green hold">Instagram</p>
+          <p className="green hold">Youtube</p>
+          <p className="green hold">LinkedIn</p>
         </div>
         <div className="contact">
           <h6>Earnings</h6>
-          <p className="green">Become an Affiliate</p>
-          <p className="green">Advertise your product</p>
-          <p className="green">Sell on Market</p>
+          <p className="green hold">Become an Affiliate</p>
+          <p className="green hold">Advertise your product</p>
+          <p className="green hold">Sell on Market</p>
         </div>{" "}
         <div className="contact">
           <h6>Account</h6>
-          <p className="green">Your account</p>
-          <p className="green">Returns Centre</p>
-          <p className="green">100 % purchase protection</p>
-          <p className="green">Chat with us</p>
-          <p className="green">Help</p>
+          <p className="green hold">Your account</p>
+          <p className="green hold">100 % purchase protection</p>
+          <p className="green hold">Chat with us</p>
+          <p className="green hold">Help</p>
         </div>
       </div>
       <div className="tags">
