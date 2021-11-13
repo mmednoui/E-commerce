@@ -53,33 +53,7 @@
   display: flex;
   height: 30px;
 }
-.productLStars h1,
-h2 {
-  color: #888;
-  margin: 0;
-  font-weight: normal;
-}
 
-.productLStars h2 {
-  clear: both;
-  color: #aaa;
-}
-.productLStars em {
-  display: block;
-  color: #bbb;
-}
-.productLStars p,
-p a {
-  color: #aaa;
-  text-decoration: none;
-}
-.productLStars p a:hover,
-.productLStars p a:focus {
-  text-decoration: underline;
-}
-.productLStars p + p {
-  color: #bbb;
-}
 /* * productLRating styles */
 .productLRating {
   width: 110px;
@@ -102,9 +76,7 @@ p a {
   -o-transition: color 0.4s;
   transition: color 0.4s;
 }
-.productLRating label:hover ~ label,
-.productLRating input:focus ~ label,
-.productLRating label:hover,
+
 .productLRating a:hover,
 .productLRating a:hover ~ a,
 .productLRating a:focus,

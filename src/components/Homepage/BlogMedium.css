@@ -7,10 +7,9 @@
   justify-content: start;
   padding: 18px;
   margin: 15px;
-  min-width: 200px;
+  width: 100%;
   position: relative;
-  height: 100%;
-  margin: 0 50px;
+  min-width: 25%;
 }
 .BlogMedium img {
   height: 40%;

@@ -42,12 +42,7 @@ function CategoryGrid() {
           <p className=" choice_activehold">3</p>
           <p className=" hold">4</p>
         </div>
-        <button className="hold">
-          {" "}
-          <select className="hold" name="" id="">
-            <option value="">Show more products</option>
-          </select>
-        </button>
+        <button className="hold"> Show more products</button>
         <div>
           <div className="num_prod green">232</div>
           <p className="choice_active hold">Products</p>

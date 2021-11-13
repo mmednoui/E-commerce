@@ -31,7 +31,7 @@
 
   color: #151515;
 }
-.cat_list h3 {
+.grid_choice h3 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -99,45 +99,7 @@
 .num_prod span {
   margin: 0 1px;
 }
-.cat_bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px;
-}
-.cat_bottom div {
-  align-items: center;
-  display: flex;
-}
-.cat_bottom p {
-  margin: 0 5px;
-}
-.cat_bottom button {
-  width: 214px;
-  height: 47px;
-  /* C2/A */
 
-  background: #6a983c;
-  /* C2/B */
-
-  border: 2px solid #46760a;
-  box-sizing: border-box;
-  border-radius: 12px;
-}
-.cat_bottom select {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 22px;
-  /* identical to box height */
-
-  /* C1/J */
-
-  color: #ffffff;
-  background-color: #6a983c;
-  border: none;
-}
 .list_view {
   flex: 9;
   display: flex;

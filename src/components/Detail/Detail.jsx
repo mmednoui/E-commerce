@@ -102,8 +102,13 @@ function Detail() {
               </button>
             </div>
             <div className="detail_desc_wishlist">
-              <button>Add to my wish list</button>
-              <button>Compare</button>
+              <button>
+                {" "}
+                <i class="far fa-heart"></i>Add to my wish list
+              </button>
+              <button>
+                <i class="far fa-file-archive"></i>Compare
+              </button>
             </div>
           </div>
           <div className="detail_review">
@@ -136,7 +141,51 @@ function Detail() {
               </div>
             </div>
           </div>
-          <div className="detail_vitamine"></div>
+          <div className="detail_vitamine">
+            <h6>Full of Vitamins!</h6>
+            <table cellspacing="0" cellpadding="0">
+              <tr>
+                <th>Vitamins</th>
+                <th>Quantity</th>
+                <th>% DV</th>
+              </tr>
+              <tr className="cell_impaire">
+                <td>Vitamin A equiv.</td>
+                <td>735 μg</td>
+                <td>104 %</td>
+              </tr>{" "}
+              <tr>
+                <td>Thiamine (B1)</td>
+                <td>0.066 mg</td>
+                <td>6 %</td>
+              </tr>{" "}
+              <tr className="cell_impaire">
+                <td>Niacin (B3)</td>
+                <td>0.983 mg</td>
+                <td>7 %</td>
+              </tr>{" "}
+              <tr>
+                <td>Folate (Bg)</td>
+                <td>19 μg</td>
+                <td>5 %</td>
+              </tr>{" "}
+              <tr className="cell_impaire">
+                <td>Vitamin C</td>
+                <td>5.9 mg</td>
+                <td>7 %</td>
+              </tr>{" "}
+              <tr>
+                <td>Vitamin E</td>
+                <td>0.66 mg</td>
+                <td>4 %</td>
+              </tr>{" "}
+              <tr className="cell_impaire">
+                <td>Vitamin K</td>
+                <td>13.2</td>
+                <td>13 %</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
       <ListProducts />

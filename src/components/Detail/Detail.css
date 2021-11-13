@@ -241,6 +241,10 @@
   display: flex;
   margin-top: 30px;
 }
+.detail_desc_wishlist button i {
+  margin: 0 10px;
+  color: #e6704b;
+}
 .detail_desc_wishlist button {
   display: flex;
   font-family: Poppins;
@@ -249,7 +253,8 @@
   font-size: 15px;
   line-height: 22px;
   /* identical to box height */
-
+  display: flex;
+  align-items: center;
   /* C1/A */
 
   color: #151515;
@@ -331,4 +336,37 @@
 }
 .border_active {
   border-bottom: 2px solid #6a983c !important;
+}
+.detail_vitamine h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* C1/A */
+
+  color: #151515;
+}
+.detail_vitamine {
+  width: 100%;
+}
+
+.detail_vitamine table {
+  width: 100%;
+  margin-top: 30px;
+  border: none;
+}
+.detail_vitamine th {
+  width: 30%;
+  padding: 10px 0;
+  border-bottom: 1px solid #ebebeb;
+  text-align: left;
+}
+.detail_vitamine td {
+  padding: 10px 0;
+}
+.cell_impaire {
+  background-color: #fdfdfd;
 }

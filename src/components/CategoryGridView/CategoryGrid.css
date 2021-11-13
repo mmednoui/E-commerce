@@ -113,9 +113,8 @@
   margin: 0 5px;
 }
 .cat_bottom button {
-  width: 214px;
-  height: 47px;
   /* C2/A */
+  padding: 10px 20px;
 
   background: #6a983c;
   /* C2/B */
@@ -123,8 +122,6 @@
   border: 2px solid #46760a;
   box-sizing: border-box;
   border-radius: 12px;
-}
-.cat_bottom select {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -135,6 +132,4 @@
   /* C1/J */
 
   color: #ffffff;
-  background-color: #6a983c;
-  border: none;
 }
