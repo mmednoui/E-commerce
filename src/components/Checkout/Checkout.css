@@ -1,0 +1,135 @@
+.checkout_content {
+  display: flex;
+  margin: 0 40px;
+}
+.checkout_content_form {
+  flex: 8;
+}
+.order_summary {
+  flex: 5;
+  /* C1/J */
+
+  background: #ffffff;
+  /* C1/D */
+
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 30px 20px;
+}
+.order_summary h6 {
+  /* S3/Default */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  /* C1/A */
+
+  color: #151515;
+}
+.order_summary span {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* C1/C */
+
+  color: #a9a9a9;
+}
+.order_summary p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+}
+.order_tax div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.promo_code {
+  background: #f9f9f9;
+  /* C1/D */
+
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin: 30px 0;
+}
+.promo_code input {
+  border: none;
+  background-color: transparent;
+
+  /* Body/Default */
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* C1/C */
+
+  color: #a9a9a9;
+  width: 80%;
+  padding-left: 10px;
+}
+.promo_code button {
+  border: none;
+  background-color: transparent;
+  /* Button/Default */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* C1/A */
+
+  color: #151515;
+}
+.delivery {
+  /* Caption/Default */
+
+  font-family: Open Sans !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* C2/A */
+
+  color: #6a983c;
+}
+.total_order {
+  display: flex;
+  justify-content: space-between;
+}
+.total_order h5 {
+  /* S2/Default */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  /* identical to box height */
+
+  /* C2/A */
+
+  color: #6a983c;
+}
